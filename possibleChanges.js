@@ -1,6 +1,5 @@
 function possibleChanges(usernames) {
     let results = []
-    console.log(results.length)
     let len = 0
     usernames.forEach(name => {
         let nameArr = name.split("")
